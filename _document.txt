@@ -9,6 +9,7 @@ lkw01114@naver.com
 	가상머신 계정(ubuntu login)  : 	kwangwoon / 1111
 	mysql root 계정 : 	root / root
 	mysql 사용자 계정 : kwangwoon / kwangwoon
+	1111
 	
 2. JUnit - Java Test Framework
 3. Web applications ( servlet mvc)
