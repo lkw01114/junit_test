@@ -1,0 +1,58 @@
+github.com 계정
+lkw01114
+lkw01114@naver.com
+
+---------------------------------------------------------------------------
+1. Database(Mysql + MariaDB) + Java
+	- 가상머신(sw적인 머신)
+	
+	가상머신 계정(ubuntu login)  : 	kwangwoon / 1111
+	mysql root 계정 : 	root / root
+	mysql 사용자 계정 : kwangwoon / kwangwoon
+	
+2. JUnit - Java Test Framework
+3. Web applications ( servlet mvc)
+4. Spring framework
+	- DI
+	- AOP	
+5. Spring MVC
+
+
+---------------------------------------------------------------------------
+
+
+maven project 
+	
+---------------------------------------------------------------------------	
+
+
+Mysql system �븳湲��꽕�젙.
+
+cd /etc/mysql/mysql.conf.d
+sudo pico mysqld.cnf
+[mysqld]
+init_connect = SET collation_connection = utf8_general_ci (異붽�)
+init_connect = SET NAMES utf8 (異붽�)
+character-set-server = utf8 (異붽�)
+collation-server = utf8_general_ci (異붽�)
+----------------------------------------------
+
+cd /etc/mysql/conf.d
+sudo pico mysql.cnf
+[mysql]
+default-character-set = utf8  (異붽�)
+
+----------------------------------------------
+
+cd /etc/mysql/conf.d
+sudo pico mysqldump.cnf
+[mysqldump]
+default-character-set = utf8
+
+----------------------------------------------
+
+sudo /etc/init.d/mysql restart
+
+李멸퀬 : http://duongame.tistory.com/71
+
+	
